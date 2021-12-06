@@ -5,7 +5,6 @@ namespace PraktikumW13
 {
     class Program
     { 
-
         static void ulang()
     {
             bool ulang = true;
@@ -56,7 +55,7 @@ namespace PraktikumW13
             Console.Write("PRINT HASIL ? (y/n)");
             string hasil = Console.ReadLine();
             if (hasil == "y")
-            {//bingung ceee
+            {/*bingung ceee
                 var header = String.Format("{1,4}{1,8}{2,12}{3,8}{4,12}{5,14}{6,16}{7,20}\n",
                 "NO", "NIM", "NAMA", "JENIS KELAMIN", "TAHUN MASUK", "PROGRAM STUDI");
                 Console.WriteLine(header);
@@ -68,9 +67,8 @@ namespace PraktikumW13
             }
             else if (hasil == "n")
             {             
-            }
-            
-
-        }
+            }*/
+            }  
+       }
     }
 }
